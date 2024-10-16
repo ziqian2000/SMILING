@@ -1,0 +1,5 @@
+name: bc
+ 
+num_train_epochs: 100000000
+
+loss: mle # mse | mle 

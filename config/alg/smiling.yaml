@@ -1,0 +1,18 @@
+name: smiling
+
+diff_model_name: null
+
+epochs: 1
+timesteps: 5000 
+t_sample_cnt: 500
+hidden_dim: 256
+hidden_depth: 1
+time_emb_dim: 16
+lr: 0.005
+batch_size: 1024
+
+expert_train_num_epochs: 4000
+
+# reward normalization
+normalize_reward: true
+target_std: 0.1

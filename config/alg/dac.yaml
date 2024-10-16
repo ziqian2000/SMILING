@@ -1,0 +1,12 @@
+name: dac
+
+hidden_dim: 256
+hidden_depth: 1
+lr: 0.005
+batch_size: 1024
+epochs: 1
+
+normalize_reward: false
+target_std: 1.0
+
+reward_style: gail # gail | airl

@@ -1,0 +1,37 @@
+defaults:
+  - _self_
+  - agent: sac # sac | dreamerv3
+  - alg: smiling # smiling | dac | bc
+
+seed: 0
+env: ball_in_cup_catch
+run_name: ${env}_${now:%m.%d.%H.%M.%S.%f}
+device: cuda
+
+epochs: 100000
+rl_train_steps: 1001
+data_size: 100000
+
+# expert 
+expert_path: null
+expert_dataset_num_obs: 5000
+expert_dataset_retain_every: 1 # 1 for no subsampling
+expert_num_train_steps: 1e8
+
+# buffers
+replay_buffer_capacity: ${expert_num_train_steps}
+obs_buffer_capacity: 200000
+
+# eval
+eval_frequency: 10000
+num_eval_episodes: 1
+
+# logger
+log_frequency: 10000
+log_wandb: true
+save_model_every: 1e5
+save_video: true
+
+# options
+use_action: false
+use_linear: false
