@@ -1,6 +1,6 @@
 # 😊 SMILING: Score-Matching Imitation LearnING
 
-This repository contains implementations of the algorithms presented in "Diffusing States and Matching Scores: A New Framework for Imitation Learning"
+This repository contains implementations of the algorithms presented in [Diffusing States and Matching Scores: A New Framework for Imitation Learning](https://arxiv.org/abs/2410.13855)
 
 <p align="center">
   <img src="fig/smiling.png" alt="SMILING" width="600"/>
