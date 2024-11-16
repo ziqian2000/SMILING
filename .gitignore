@@ -4,5 +4,4 @@
 .vscode
 models
 outputs
-replay
 wandb

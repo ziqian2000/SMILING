@@ -120,4 +120,11 @@ Our DAC is based on the official repository: [google-research/dac](https://githu
 
 ## 📝 Citation
 
-TODO
+```bibtex
+@article{wu2024diffusing,
+  title={Diffusing States and Matching Scores: A New Framework for Imitation Learning},
+  author={Wu, Runzhe and Chen, Yiding and Swamy, Gokul and Brantley, Kiant{\'e} and Sun, Wen},
+  journal={arXiv preprint arXiv:2410.13855},
+  year={2024}
+}
+```
